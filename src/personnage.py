@@ -8,4 +8,7 @@ class Personnage:
     def recevoir_attaque(self, attaquant):
         self.__hp -= 1
 
+    def est_mort(self):
+        return True
+
     
