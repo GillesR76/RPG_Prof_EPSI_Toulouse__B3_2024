@@ -8,5 +8,13 @@ class RpgTest(unittest.TestCase):
         personnage = Personnage()
         self.assertEqual(10, personnage.get_hp())
 
+    def test_attaquer_retranche_1_hp(self):
+        attaquant = Personnage()
+        defenseur = Personnage()
+
+        defenseur.recevoir_attaque(attaquant)
+
+        self.assertEqual(9, defenseur.get_hp())
+
 if __name__ == '__main__':
     unittest.main()
