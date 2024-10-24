@@ -3,7 +3,7 @@ import unittest
 from personnage import Personnage
 
 
-class MyTestCase(unittest.TestCase):
+class RpgTest(unittest.TestCase):
     def test_10_hp_initiaux(self):
         personnage = Personnage()
         self.assertEqual(10, personnage.get_hp())
