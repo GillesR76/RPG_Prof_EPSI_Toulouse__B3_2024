@@ -33,5 +33,13 @@ class RpgTest(unittest.TestCase):
 
         self.assertTrue(personnage.est_mort())
 
+    def test_1_hp_pas_mort(self):
+        personnage = Personnage()
+
+        for _ in range(0, 9):
+            personnage.recevoir_attaque(Personnage())
+
+        self.assertFalse(personnage.est_mort())
+
 if __name__ == '__main__':
     unittest.main()
