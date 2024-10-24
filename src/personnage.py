@@ -9,6 +9,6 @@ class Personnage:
         self.__hp -= 1
 
     def est_mort(self):
-        return True
+        return self.__hp == 0
 
     
