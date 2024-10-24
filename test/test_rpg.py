@@ -16,5 +16,14 @@ class RpgTest(unittest.TestCase):
 
         self.assertEqual(9, defenseur.get_hp())
 
+    def test_attaquer_2_fois_retranche_2_hp(self):
+        attaquant = Personnage()
+        defenseur = Personnage()
+
+        defenseur.recevoir_attaque(attaquant)
+        defenseur.recevoir_attaque(attaquant)
+
+        self.assertEqual(8, defenseur.get_hp())
+
 if __name__ == '__main__':
     unittest.main()
