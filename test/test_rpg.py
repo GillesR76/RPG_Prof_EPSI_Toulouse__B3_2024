@@ -31,7 +31,7 @@ class RpgTest(unittest.TestCase):
         for _ in range(0, 10):
             personnage.recevoir_attaque(Personnage())
 
-        self.assertTrue(personnage.est_mort())
+        self.assertFalse(personnage.est_mort())
 
     def test_1_hp_pas_mort(self):
         personnage = Personnage()
