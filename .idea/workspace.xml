@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="34bea9b3-f114-4fb4-a5ff-49da854cd162" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/personnage.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/personnage.py" afterDir="false" />
-    </list>
+    <list default="true" id="34bea9b3-f114-4fb4-a5ff-49da854cd162" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -87,7 +85,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729775317056</updated>
-      <workItem from="1729775324120" duration="1159000" />
+      <workItem from="1729775324120" duration="2004000" />
     </task>
     <servers />
   </component>
@@ -95,6 +93,6 @@
     <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/RPG_Prof$.coverage" NAME=" Coverage Results" MODIFIED="1729776479356" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/RPG_Prof$.coverage" NAME=" Coverage Results" MODIFIED="1729776665174" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
   </component>
 </project>
